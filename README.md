@@ -1,10 +1,13 @@
-# Create and setup a laravel project
+# Learn Laravel From Laracast
+Course Resourse: https://laracasts.com/series/30-days-to-learn-laravel-11
 
-## Create laravel project
+## Create and setup a laravel project
+
+### Create laravel project
 ```bash	
 composer create-project --prefer-dist laravel/laravel project-name
 ```
-## Open the project directory and setup the project
+### Open the project directory and setup the project
 - Go to the project directory 
 - Configure database at `.env` file	
 ```bash
@@ -20,7 +23,7 @@ DB_PASSWORD=database-password
 php artisan migrate
 ```
 
-## Add the project at github repository:
+### Add the project at github repository
 - Create a github repository (without `README.md` because during installation laravel has a default `README.md`)
 - Add the project to the github repo
 ```bash
