@@ -22,7 +22,7 @@ php artisan migrate
 
 ## Add the project at github repository:
 - Create a github repository (without `README.md` because during installation laravel has a default `README.md`)
-- Add the project to the github repo:
+- Add the project to the github repo
 ```bash
 git init
 git branch -M main
